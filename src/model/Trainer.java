@@ -27,7 +27,7 @@ public class Trainer extends Person {
         this.speciality  = speciality;
     }
 
-    // ─── Getters and Setters ───────────────────────────────────────────────
+    // ─── Getters and  Setters ───────────────────────────────────────────────
 
     public String getTrainerId()  { return trainerId;  }
     public String getSpeciality() { return speciality; }
