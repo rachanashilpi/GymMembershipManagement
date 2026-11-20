@@ -32,7 +32,7 @@ public class ReportService {
      * Generates and prints the full system report:
      *   1. Total / Active / Expired members
      *   2. Attendance summary
-     *   3. Trainer assignment summary
+     *   3. Trainer assignment summary 
      */
     public void generateReport() {
         ConsoleUtil.printTitle("===== SYSTEM REPORT =====");
