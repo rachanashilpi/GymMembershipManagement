@@ -11,7 +11,7 @@ public class MemberNotFoundException extends Exception {
     /**
      * Constructor with search key (member ID or name).
      *
-     * @param searchKey The value that was used in the search.
+     * @param search Key The value that was used in the search.
      */
     public MemberNotFoundException(String searchKey) {
         super("No member found with identifier: " + searchKey);
