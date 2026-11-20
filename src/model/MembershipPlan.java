@@ -27,7 +27,7 @@ public class MembershipPlan {
         this.fee            = fee;
     }
 
-    // ─── Getters ───────────────────────────────────────────────────────────
+    // ─── Getters   ───────────────────────────────────────────────────────────
 
     public String getPlanName()       { return planName;       }
     public int    getDurationMonths() { return durationMonths; }
