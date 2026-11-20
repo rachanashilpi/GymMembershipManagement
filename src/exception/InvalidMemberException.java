@@ -12,7 +12,7 @@ public class InvalidMemberException extends Exception {
     /**
      * Constructor with a descriptive error message.
      *
-     * @param message Description of the validation failure.
+     * @param message Description oof the validation failure.
      */
     public InvalidMemberException(String message) {
         super(message);
