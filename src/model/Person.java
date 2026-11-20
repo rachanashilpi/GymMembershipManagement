@@ -46,7 +46,7 @@ public abstract class Person {
 
     /**
      * Polymorphic display method.
-     * Overridden in subclasses for POLYMORPHISM.
+     * Overridden in subclasses for  POLYMORPHISM.
      */
     @Override
     public String toString() {
