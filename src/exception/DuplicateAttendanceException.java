@@ -3,7 +3,7 @@ package exception;
 /**
  * Custom exception thrown when attendance is marked twice
  * for the same member on the same date.
- * Prevents duplicate attendance records in the system.
+ * Prevents duplicate attendance records in the system..
  */
 public class DuplicateAttendanceException extends Exception {
 
