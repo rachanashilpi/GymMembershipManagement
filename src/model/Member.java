@@ -75,7 +75,7 @@ public class Member extends Person {
 
     /**
      * POLYMORPHISM: Overrides toString() from Person.
-     * Provides a detailed, formatted representation of the member.
+     * Provides a detailed, formatted epresentation of the member.
      */
     @Override
     public String toString() {
