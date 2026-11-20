@@ -43,7 +43,7 @@ public class Trainer extends Person {
     }
 
     /**
-     * POLYMORPHISM: Overrides toString() from Person.
+     * POLYMORPHISM: Overrides toString() from Person .
      */
     @Override
     public String toString() {
