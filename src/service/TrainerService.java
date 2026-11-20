@@ -18,7 +18,7 @@ import java.util.Scanner;
  *
  * COLLECTIONS USED:
  *   - HashMap<String, Trainer>       : stores trainers by their ID.
- *   - HashMap<String, List<String>>  : maps trainerId -> list of assigned memberIds.
+ *   - HashMap<String, List<String>>  : maps trainerId -=> list of assigned memberIds.
  *
  * DSA USED:
  *   - WaitingQueue<String>           : custom linked-node queue used as a trainer
