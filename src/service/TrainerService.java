@@ -103,7 +103,7 @@ public class TrainerService {
         processWaitingList();
     }
 
-    // ─── Feature 8: Assign Trainer ───────────────────────────────────────
+    // ─── Feature 8: Assign Trainer ───────────────────────────────────────  
 
     /**
      * Assigns a trainer to a member.
