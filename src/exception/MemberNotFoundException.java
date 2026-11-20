@@ -19,7 +19,7 @@ public class MemberNotFoundException extends Exception {
     }
 
     /**
-     * Returns the key used during the failed search.
+     * Returns the key used during the failed search..
      */
     public String getSearchKey() {
         return searchKey;
