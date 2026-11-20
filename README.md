@@ -289,3 +289,51 @@ git push origin review/add-viva-notes
 4. Add comments or approval using the **Review changes** button.
 5. Click **Approve** then **Merge pull request** → **Confirm merge**.
 6. Optionally delete the feature branch after merging.
+## Manual Testing and Validation
+
+The following functionalities have been tested:
+
+1. Member registration with valid details.
+2. Membership plan selection.
+3. Member search and listing.
+4. Membership renewal for active and expired members.
+5. Renewal request queue operations.
+6. Attendance marking and history.
+7. Duplicate attendance prevention.
+8. Trainer registration and assignment.
+9. Active and expired member filtering.
+10. Summary report generation.
+11. Invalid member input handling.
+12. Custom exception handling.
+13. Invalid menu input handling.
+14. Non-existing member ID handling.
+15. Trainer speciality validation.
+
+## System Architecture
+
+The Gym Membership Management System is developed using Java and follows an object-oriented programming approach.
+
+### 1. Model Package
+- Person.java – Abstract base class containing common person details.
+- Member.java – Represents gym members and their membership information.
+- Trainer.java – Represents trainers and their specialities.
+- MembershipPlan.java – Defines available membership plans.
+
+### 2. Service Package
+- MemberService.java – Handles member registration, searching and membership operations.
+- AttendanceService.java – Manages member attendance records.
+- TrainerService.java – Handles trainer registration and assignment.
+- ReportService.java – Generates gym statistics and summary reports.
+
+### 3. DSA Package
+- WaitingQueue.java – Implements a queue using a linked list to manage renewal requests.
+
+### 4. Exception Package
+Contains custom exceptions for handling invalid member details, missing members and duplicate attendance.
+
+### 5. Utility Package
+- ConsoleUtil.java – Provides console input and output utilities.
+- DateUtil.java – Handles date-related operations.
+
+### 6. Main Class
+Main.java acts as the entry point of the application and manages the menu-driven interface.
