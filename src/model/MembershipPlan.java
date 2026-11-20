@@ -6,7 +6,7 @@ package model;
  * ENCAPSULATION: All fields are private with public getters.
  *
  * Four plan types are pre-defined as static constants for easy reuse
- * across the application via MembershipPlan.PLANS map.
+ * across the application via Membership Plan.PLANS map.
  */
 public class MembershipPlan {
 
