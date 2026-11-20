@@ -77,7 +77,7 @@ public class ReportService {
         }
     }
 
-    // ─── 2. Attendance Summary ─────────────────────────────────────────────
+    // ─── 2. Attendance Summary ──────────────── ─────────────────────────────
 
     private void reportAttendanceSummary() {
         Map<String, List<String>> records = attendanceService.getAttendanceRecords();
